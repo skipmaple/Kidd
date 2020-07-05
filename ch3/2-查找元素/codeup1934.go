@@ -15,7 +15,7 @@ import "fmt"
 // output:
 // 2
 
-func main() {
+func f1934() {
 	var len, num, foundNum int
 	var arr []int
 	fmt.Println("请输入数组长度：")
