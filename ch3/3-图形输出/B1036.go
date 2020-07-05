@@ -1,3 +1,8 @@
+// 跟奥巴马一起编程
+// page 43
+
+// 输出给定字符组成的正方形
+
 package main
 
 import (
