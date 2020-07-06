@@ -53,10 +53,8 @@ func TentoQ(q int, num int) (res []int) {
 		return res
 	}
 
-	i := 0
 	for num != 0 {
 		res = append(res, num%q)
-		i++
 		num /= q
 	}
 	return res

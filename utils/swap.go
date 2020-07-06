@@ -12,3 +12,11 @@ func Swap(a, b int) (min, max int) {
 
 	return min, max
 }
+
+func Max(a, b int) int {
+	if a > b {
+		return a
+	} else {
+		return b
+	}
+}
