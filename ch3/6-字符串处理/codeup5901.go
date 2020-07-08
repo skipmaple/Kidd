@@ -1,11 +1,9 @@
 package main
 
-import "fmt"
-
 // 判断回文字符串
-func main() {
-fmt.Printf("%v", isHuiwen("noon"))
-}
+//func main() {
+//fmt.Printf("%v", isHuiwen("noon"))
+//}
 
 func isHuiwen(s string) bool {
 	bs := []byte(s)

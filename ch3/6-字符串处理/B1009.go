@@ -1,12 +1,10 @@
 package main
 
-import "fmt"
-
 // 说反话
-func main() {
-	s := "another day another chance"
-	fmt.Println(talkReverse(s))
-}
+//func main() {
+//	s := "another day another chance"
+//	fmt.Println(talkReverse(s))
+//}
 
 func talkReverse(s string) string {
 	bs := []byte(s)
