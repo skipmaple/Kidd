@@ -25,7 +25,7 @@ func Test_sumFormat(t *testing.T) {
 	}{
 		// TODO: Add test cases.
 		{"t1", arg1, "-999,991"},
-		{"t2", arg2, "-999,991"},
+		{"t2", arg2, "1,888,887"},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

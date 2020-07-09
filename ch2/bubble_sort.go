@@ -1,11 +1,9 @@
-package main
+package ch2
 
-import "fmt"
-
-func main()  {
-	a := []int{12, 33, 44, 22, 1, -2, -4, 321, 22}
-	fmt.Println(bubbleSort(a))
-}
+//func main()  {
+//	a := []int{12, 33, 44, 22, 1, -2, -4, 321, 22}
+//	fmt.Println(bubbleSort(a))
+//}
 
 // 冒泡排序
 func bubbleSort(a []int) []int {
