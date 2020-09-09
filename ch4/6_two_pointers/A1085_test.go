@@ -9,7 +9,7 @@ func Test_perfect_arr(t *testing.T) {
 	}
 
 	arg1 := args{
-		arr: []int{2,3,20,4,5,1,6,7,8,9},
+		arr: []int{2, 3, 20, 4, 5, 1, 6, 7, 8, 9},
 		p:   8,
 	}
 
@@ -29,7 +29,7 @@ func Test_perfect_arr(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if gotRes := perfect_arr(tt.args.arr, tt.args.p); gotRes != tt.wantRes {
+			if gotRes := perfectArr(tt.args.arr, tt.args.p); gotRes != tt.wantRes {
 				t.Errorf("perfect_arr() = %v, want %v", gotRes, tt.wantRes)
 			}
 		})
