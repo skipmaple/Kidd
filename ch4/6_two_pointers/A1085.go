@@ -4,6 +4,9 @@ import (
 	"github.com/UncleMaple/Kidd/utils"
 )
 
+// 完美数列
+// page 176
+
 //func perfectArr(arr []int, p int) (res int) {
 //	for i := 0; i < len(arr)-1; i++ {
 //		for j := 0; j < len(arr)-i-1; j++ {

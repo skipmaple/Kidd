@@ -5,7 +5,7 @@ import (
 )
 
 // 完美数列
-// page165
+// page 165
 
 func perfectList(arr []int, p int) (res int) {
 
