@@ -1,7 +1,6 @@
 package __two_pointers
 
 import (
-	"fmt"
 	"github.com/UncleMaple/Kidd/utils"
 )
 
@@ -16,7 +15,7 @@ func InsertOrMerge(arrInput, arrGet []int) (res string, nextStep []int) {
 		return "Insertion Sort", arr
 	}
 
-	fmt.Println(originArr)
+	//fmt.Println(originArr)
 	flag, arr = mergeSort(originArr, arrGet)
 	if flag {
 		return "Merge Sort", arr
