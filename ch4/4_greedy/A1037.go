@@ -5,12 +5,12 @@ package ch4
 
 func magicCoupon(a, b []int) (res int) {
 	a, b = sortList(a), sortList(b)
-	for i:=0;i< len(a)&&i< len(b)&&a[i]<0&&b[i]<0;i++ {
-		res += a[i]*b[i]
+	for i := 0; i < len(a) && i < len(b) && a[i] < 0 && b[i] < 0; i++ {
+		res += a[i] * b[i]
 	}
 
-	for i,j:= len(a)-1, len(b)-1;i>=0&&j>=0&&a[i]>0&&b[j]>0;i,j=i-1,j-1{
-		res += a[i]*b[j]
+	for i, j := len(a)-1, len(b)-1; i >= 0 && j >= 0 && a[i] > 0 && b[j] > 0; i, j = i-1, j-1 {
+		res += a[i] * b[j]
 	}
 
 	return res
