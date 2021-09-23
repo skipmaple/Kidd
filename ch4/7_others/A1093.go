@@ -1,5 +1,8 @@
 package __others
 
+// 有几个PAT
+// page 184
+
 func howManyPAT(str string) int {
 	leftNumP := make([]int, len(str))
 	leftNumP[0] = 0
