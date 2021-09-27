@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "github.com/UncleMaple/Kidd/utils"
+import "Kidd/utils"
 
 // 成绩排名
 // page 31

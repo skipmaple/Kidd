@@ -49,25 +49,25 @@ func QtoT(num int, q int) (res int) {
 
 // give 12345, output []int64{1,2,3,4,5}
 
-func Int64ToSlice(n int64, sequence []int64) []int64 {
+func IntToSlice(n int, sequence []int) []int {
 	if n != 0 {
 		i := n % 10
 		// sequence = append(sequence, i) // reverse order output
-		sequence = append([]int64{i}, sequence...)
-		return Int64ToSlice(n/10, sequence)
+		sequence = append([]int{i}, sequence...)
+		return IntToSlice(n/10, sequence)
 	}
 	return sequence
 }
 
-func SliceToInt(arr []int64) int64 {
+func SliceToInt(arr []int) int {
 	//s, _ := json.Marshal(arr)
 	//fmt.Println(s)
 	//fmt.Println(strings.Trim(string(s), "[]"))
 	str := ""
 	for _, v := range arr {
-		str += strconv.FormatInt(v, 10)
+		str += strconv.Itoa(v)
 	}
 
-	res, _ := strconv.ParseInt(str, 10, 64)
+	res, _ := strconv.Atoi(str)
 	return res
 }

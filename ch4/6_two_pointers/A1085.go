@@ -1,7 +1,7 @@
 package __two_pointers
 
 import (
-	"github.com/UncleMaple/Kidd/utils"
+	"Kidd/utils"
 )
 
 // 完美数列
