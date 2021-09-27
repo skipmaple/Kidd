@@ -1,7 +1,7 @@
 package __others
 
 import (
-	"github.com/UncleMaple/Kidd/utils"
+	"Kidd/utils"
 )
 
 // page 186

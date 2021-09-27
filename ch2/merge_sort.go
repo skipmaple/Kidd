@@ -1,6 +1,6 @@
 package ch2
 
-import "github.com/UncleMaple/Kidd/utils"
+import "Kidd/utils"
 
 // 归并排序
 

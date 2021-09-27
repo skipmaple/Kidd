@@ -6,9 +6,8 @@
 package main
 
 import (
+	"Kidd/utils"
 	"fmt"
-	"github.com/UncleMaple/Kidd/utils"
-	_ "github.com/UncleMaple/Kidd/utils"
 )
 
 const ToThirteen int = 13
