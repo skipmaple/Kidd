@@ -1,3 +1,3 @@
-module github.com/UncleMaple/Kidd
+module Kidd
 
 go 1.17
