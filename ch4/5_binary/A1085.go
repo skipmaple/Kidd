@@ -1,7 +1,7 @@
 package ch4
 
 import (
-	"github.com/UncleMaple/Kidd/utils"
+	"Kidd/utils"
 )
 
 // 完美数列

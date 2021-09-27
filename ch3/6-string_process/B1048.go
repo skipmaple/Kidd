@@ -1,8 +1,8 @@
 package main
 
 import (
+	"Kidd/utils"
 	"fmt"
-	"github.com/UncleMaple/Kidd/utils"
 	"math"
 	"strconv"
 )
