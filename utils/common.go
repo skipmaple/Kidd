@@ -13,7 +13,7 @@ type StudentInfo struct {
 	Score   int
 }
 
-// 十进制转换为Q进制
+// TtoQ 十进制转换为Q进制
 func TtoQ(num, q int) (res []string) {
 	if num == 0 {
 		return []string{"0"}
@@ -32,7 +32,7 @@ func TtoQ(num, q int) (res []string) {
 	return res
 }
 
-// Q进制转换为十进制
+// QtoT Q进制转换为十进制
 func QtoT(num int, q int) (res int) {
 	for i := 0; num != 0; i++ {
 		temp := num % 10
@@ -47,8 +47,7 @@ func QtoT(num int, q int) (res int) {
 	return res
 }
 
-// give 12345, output []int64{1,2,3,4,5}
-
+// IntToSlice give 12345, output []int64{1,2,3,4,5}
 func IntToSlice(n int, sequence []int) []int {
 	if n != 0 {
 		i := n % 10
@@ -70,4 +69,13 @@ func SliceToInt(arr []int) int {
 
 	res, _ := strconv.Atoi(str)
 	return res
+}
+
+// Gcd 求 a 和 b 的最大公约数
+func Gcd(a, b int) (res int) {
+	if b == 0 {
+		return a
+	} else {
+		return Gcd(b, a%b)
+	}
 }

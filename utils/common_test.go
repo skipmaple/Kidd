@@ -47,3 +47,27 @@ func TestSliceToInt(t *testing.T) {
 		})
 	}
 }
+
+func Test_gcd(t *testing.T) {
+	type args struct {
+		a int
+		b int
+	}
+	tests := []struct {
+		name    string
+		args    args
+		wantRes int
+	}{
+		// TODO: Add test cases.
+		{"t1", args{3, 8}, 1},
+		{"t2", args{3, 6}, 3},
+		{"t3", args{12, 36}, 12},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if gotRes := Gcd(tt.args.a, tt.args.b); gotRes != tt.wantRes {
+				t.Errorf("Gcd() = %v, want %v", gotRes, tt.wantRes)
+			}
+		})
+	}
+}
