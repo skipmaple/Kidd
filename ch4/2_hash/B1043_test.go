@@ -11,7 +11,6 @@ func Test_printPATest(t *testing.T) {
 		args    args
 		wantRes string
 	}{
-		// TODO: Add test cases.
 		{"t1", args{"redlesPayBestPATTopTeePHPereatitAPPT"}, "PATestPATestPTetPTePePee"},
 	}
 	for _, tt := range tests {

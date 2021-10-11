@@ -22,7 +22,6 @@ func Test_perfectList(t *testing.T) {
 		args    args
 		wantRes int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 8},
 		{"t2", arg2, 3},
 	}

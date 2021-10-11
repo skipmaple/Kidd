@@ -20,7 +20,6 @@ func Test_oldKeyboard(t *testing.T) {
 		args       args
 		wantOutput string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, res1},
 	}
 	for _, tt := range tests {

@@ -54,7 +54,6 @@ func Test_stuRank(t *testing.T) {
 		wantTotal    int
 		wantTotalStu []student
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 9, ans1},
 	}
 	for _, tt := range tests {

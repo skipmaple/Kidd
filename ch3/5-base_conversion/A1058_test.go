@@ -17,7 +17,6 @@ func Test_addHogwartsCash(t *testing.T) {
 		args  args
 		wantC string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, "14.1.28"},
 	}
 	for _, tt := range tests {

@@ -14,7 +14,6 @@ func Test_sayNumSum(t *testing.T) {
 		args    args
 		wantRes []string
 	}{
-		// TODO: Add test cases.
 		{"t1", args{"1234567890987654321123456789"}, []string{"yi", "san", "wu"}},
 	}
 	for _, tt := range tests {

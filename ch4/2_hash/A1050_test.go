@@ -17,7 +17,6 @@ func Test_stringSubtraction(t *testing.T) {
 		args args
 		want string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, "Thy r stdnts."},
 	}
 	for _, tt := range tests {

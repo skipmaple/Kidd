@@ -16,7 +16,6 @@ func Test_sortWithSwap0(t *testing.T) {
 		args    args
 		wantRes int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 0},
 		{"t2", arg2, 4},
 		{"t3", arg3, 12},

@@ -29,7 +29,6 @@ func Test_theBestRank(t *testing.T) {
 		args    args
 		wantRes []string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, ans1},
 	}
 	for _, tt := range tests {

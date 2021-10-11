@@ -24,7 +24,6 @@ func Test_buyOrNot(t *testing.T) {
 		wantRes bool
 		wantExt int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, true, 8},
 		{"t2", arg2, false, 2},
 	}

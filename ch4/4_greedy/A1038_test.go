@@ -16,7 +16,6 @@ func Test_smallestNumber(t *testing.T) {
 		args    args
 		wantRes int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 22932132143287},
 		{"t2", arg2, 0},
 		{"t3", arg3, 20},

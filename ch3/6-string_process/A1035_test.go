@@ -42,7 +42,6 @@ func Test_replacePassword(t *testing.T) {
 		wantCount      int
 		wantResAccount []account
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 2, ans1},
 		{"t2", arg2, 0, ans2.accounts},
 	}

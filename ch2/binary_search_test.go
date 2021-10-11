@@ -22,7 +22,6 @@ func Test_binarySearch(t *testing.T) {
 		args args
 		want int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 3},
 		{"t2", arg2, -1},
 	}
@@ -56,7 +55,6 @@ func Test_lowerBound(t *testing.T) {
 		args args
 		want int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 1},
 		{"t2", arg2, 5},
 	}
@@ -90,7 +88,6 @@ func Test_upperBound(t *testing.T) {
 		args args
 		want int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 4},
 		{"t2", arg2, 5},
 	}
@@ -119,7 +116,6 @@ func Test_maxLen(t *testing.T) {
 		args args
 		want int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 6},
 	}
 	for _, tt := range tests {
@@ -130,6 +126,3 @@ func Test_maxLen(t *testing.T) {
 		})
 	}
 }
-
-
-

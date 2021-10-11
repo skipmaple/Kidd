@@ -36,7 +36,6 @@ func Test_shoppingInMars(t *testing.T) {
 		args    args
 		wantRes [][]int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, [][]int{{1, 5}, {4, 6}, {7, 8}, {11, 11}}},
 		{"t2", arg2, [][]int{{1, 2}, {3, 3}}},
 		{"t3", arg3, [][]int{{1, 3}}},
