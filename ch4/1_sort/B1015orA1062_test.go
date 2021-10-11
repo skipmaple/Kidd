@@ -54,7 +54,6 @@ func Test_deCaiLun(t *testing.T) {
 		wantCount int
 		wantRes   []stu
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 12, ans1},
 	}
 	for _, tt := range tests {

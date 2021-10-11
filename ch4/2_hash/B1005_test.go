@@ -16,7 +16,6 @@ func Test_callatzThink(t *testing.T) {
 		args    args
 		wantRes []int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, []int{7, 6}},
 	}
 	for _, tt := range tests {

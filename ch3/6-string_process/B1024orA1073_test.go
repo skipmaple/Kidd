@@ -19,7 +19,6 @@ func Test_scienceCount(t *testing.T) {
 		args    args
 		wantRes float64
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 0.00123400},
 		{"t2", arg2, -12000000000},
 		{"t3", arg3, 31415},

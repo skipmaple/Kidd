@@ -70,7 +70,6 @@ func Test_listSorting(t *testing.T) {
 		args    args
 		wantRes []student1028
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, res1},
 		{"t2", arg2, res2},
 		{"t3", arg3, res3},

@@ -30,7 +30,6 @@ func Test_datingDate(t *testing.T) {
 		args    args
 		wantRes string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, "THU 14:04"},
 		{"t2", arg2, "SUN 22:07"},
 	}

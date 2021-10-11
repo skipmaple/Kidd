@@ -27,7 +27,6 @@ func Test_findCoins(t *testing.T) {
 		wantA int
 		wantB int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 4, 11},
 		{"t2", arg2, -1, -1},
 		{"t3", arg3, 11, 11},

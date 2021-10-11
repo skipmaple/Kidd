@@ -11,7 +11,6 @@ func Test_printAnotherInt(t *testing.T) {
 		args    args
 		wantRes string
 	}{
-		// TODO: Add test cases.
 		{"t1", args{234}, "BBSSS1234"},
 		{"t2", args{23}, "SS123"},
 	}

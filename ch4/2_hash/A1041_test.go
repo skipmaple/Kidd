@@ -11,7 +11,6 @@ func Test_beUnique(t *testing.T) {
 		args    args
 		wantRes int
 	}{
-		// TODO: Add test cases.
 		{"t1", args{input: []int{5, 31, 5, 88, 67, 88, 17}}, 31},
 		{"t1", args{input: []int{888, 666, 666, 888, 888}}, -1},
 	}

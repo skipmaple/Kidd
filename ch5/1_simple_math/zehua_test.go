@@ -14,7 +14,6 @@ func Test_merge_meetings(t *testing.T) {
 		args    args
 		wantRes [][]int
 	}{
-		// TODO: Add test cases.
 		{"t1", args{[][]int{{0, 1}, {3, 5}, {2, 4}}}, [][]int{{0, 1}, {2, 5}}},
 		{"t2", args{[][]int{{0, 5}, {3, 5}, {2, 4}}}, [][]int{{0, 5}}},
 	}
@@ -38,7 +37,6 @@ func Test_replace(t *testing.T) {
 		args args
 		want [][]int
 	}{
-		// TODO: Add test cases.
 		{"t1", args{[][]int{{0, 1}, {3, 5}, {2, 4}}, 1, []int{2, 5}}, [][]int{{0, 1}, {2, 5}}},
 	}
 	for _, tt := range tests {

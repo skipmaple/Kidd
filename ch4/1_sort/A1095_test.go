@@ -52,7 +52,6 @@ func Test_carsOnCampus(t *testing.T) {
 		args    args
 		wantRes []string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, res1},
 	}
 	for _, tt := range tests {

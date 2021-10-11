@@ -45,7 +45,6 @@ func Test_toFillOrNot(t *testing.T) {
 		args    args
 		wantRes string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, "757.92"},
 		//{"t1", arg1, "749.17"}, // !!! 答案给的这个，我自己手算和程序给的都是757.92
 		{"t2", arg2, "The maximum travel distance = 1200.00"},
