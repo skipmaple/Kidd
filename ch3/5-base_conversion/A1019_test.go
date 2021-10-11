@@ -27,7 +27,6 @@ func Test_palindromicNumber(t *testing.T) {
 		wantRes bool
 		wantArr []int
 	}{
-		// TODO: Add test cases.
 		{
 			"t1", arg1, true, []int{1, 1, 0, 1, 1},
 		},

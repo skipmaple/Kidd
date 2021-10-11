@@ -24,7 +24,6 @@ func Test_programTeamContest(t *testing.T) {
 		wantTeam       int
 		wantTotalScore int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 11, 176},
 	}
 	for _, tt := range tests {

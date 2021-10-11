@@ -29,7 +29,6 @@ func Test_radix(t *testing.T) {
 		args args
 		want string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, "2"},
 		{"t2", arg2, "Impossible"},
 	}

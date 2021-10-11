@@ -14,7 +14,6 @@ func Test_spellNum(t *testing.T) {
 		args    args
 		wantRes string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, "one five"},
 	}
 	for _, tt := range tests {

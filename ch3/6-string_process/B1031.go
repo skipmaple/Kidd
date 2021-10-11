@@ -87,7 +87,6 @@ func verifyID(id string) bool {
 //		args    args
 //		wantRes []string
 //	}{
-//		// TODO: Add test cases.
 //		//{"t1", arg1, []string{"12010X198901011234", "110108196711301866", "37070419881216001X"}},
 //		//{"t2", arg2, []string{}},
 //		{"t3", arg3, []string{}},

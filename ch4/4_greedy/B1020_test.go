@@ -20,7 +20,6 @@ func Test_yueBing(t *testing.T) {
 		args    args
 		wantMax float64
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 94.50},
 	}
 	for _, tt := range tests {

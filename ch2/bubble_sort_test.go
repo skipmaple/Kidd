@@ -16,7 +16,6 @@ func Test_bubbleSort(t *testing.T) {
 		args args
 		want []int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, []int{-4, -2, 1, 12, 22, 22, 33, 44, 321}},
 	}
 	for _, tt := range tests {

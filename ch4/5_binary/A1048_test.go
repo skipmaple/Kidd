@@ -28,7 +28,6 @@ func Test_findCoins(t *testing.T) {
 		args args
 		want string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, "4 11"},
 		{"t2", arg2, "No Solution"},
 		{"t3", arg3, "11 11"},

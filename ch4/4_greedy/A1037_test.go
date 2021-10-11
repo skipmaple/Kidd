@@ -23,7 +23,6 @@ func Test_magicCoupon(t *testing.T) {
 		args    args
 		wantRes int
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, 43},
 		{"t2", arg2, 53},
 	}

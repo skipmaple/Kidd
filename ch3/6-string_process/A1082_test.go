@@ -16,7 +16,6 @@ func Test_readChineseNum(t *testing.T) {
 		args    args
 		wantRes string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, "负一亿二千三百四十五万六千七百八十九"},
 		{"t2", arg2, "一十万零八百"},
 		{"t3", arg3, "一百万零三"},

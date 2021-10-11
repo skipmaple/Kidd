@@ -45,7 +45,6 @@ func Test_listGrades(t *testing.T) {
 		args    args
 		wantRes []string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, ans1},
 		{"t2", arg2, ans2},
 	}
