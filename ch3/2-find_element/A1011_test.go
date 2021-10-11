@@ -32,7 +32,6 @@ func Test_worldCupBetting(t *testing.T) {
 		caseM3 string
 		income float64
 	}{
-		// TODO: Add test cases.
 		{
 			name: "t1",
 			args: args{

@@ -18,7 +18,6 @@ func Test_numToSecret(t *testing.T) {
 		args    args
 		wantRes string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, "3695Q8118"},
 	}
 	for _, tt := range tests {

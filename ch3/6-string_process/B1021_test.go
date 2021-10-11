@@ -14,7 +14,6 @@ func Test_numCount(t *testing.T) {
 		args args
 		want map[int]int
 	}{
-		// TODO: Add test cases.
 		{"t1", args{100311}, map[int]int{0: 2, 1: 3, 3: 1}},
 	}
 	for _, tt := range tests {

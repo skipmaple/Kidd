@@ -13,7 +13,6 @@ func Test_byteCount(t *testing.T) {
 		wantAlpha string
 		wantMax   int
 	}{
-		// TODO: Add test cases.
 		{"t1", args{"This is a simple TEST.  There ARE numbers and other symbols 1&2&3..."}, "e", 7},
 	}
 	for _, tt := range tests {

@@ -14,7 +14,6 @@ func Test_thirteenRGB(t *testing.T) {
 		args    args
 		wantRes string
 	}{
-		// TODO: Add test cases.
 		{"t1", arg1, "#123456"},
 		{"t2", arg2, "#101112"},
 	}
